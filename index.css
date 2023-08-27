@@ -45,12 +45,17 @@ nav ul li a:hover{
     align-items: center;
     margin-top: 3%;
 }
+.date1 h1{
+    margin-left: 100px;
+}
+
 span {
     color: beige;
 }
 .date1 p{
     color: rgb(246, 246, 177);
-    font-size: 16px;
+    font-size: 20px;
+    margin-left: 100px;
    
 }
 .date1 a{
@@ -62,13 +67,18 @@ span {
     display: inline-block;
     margin: 30px 0;
     border-radius: 5px;
+    font-size: larger;
+    margin-left: 100px;
 }
-.date1 a:hover {
+.section.date1 a:hover {
     color: rgb(118, 11, 135);
 }
 .icon img:hover{
     color: beige;
     background: none;
+}
+.icon img {
+    margin-left: 10px;
 }
 .images {
     height: 100%;
@@ -78,13 +88,33 @@ span {
     padding-top: 0%;
     transition: bottom 1s, left 1s;  
 }
-.icon p{
+/* .icon p{
     color: rgb(246, 246, 177);
-    font-size: 20px;
+    font-size: 30px;
     margin: 8%;
 }
 .icon img{
     margin-left: 8%;
     margin-bottom: 0%;
     margin-top: none;
+} */
+footer{
+    background-color:  rgb(118, 11, 135);
+    padding: 50px;
+    margin-top: 50pc;
+}
+footer .icon p{
+    color: rgb(246, 246, 177);
+    font-size: 20px;
+    margin-bottom: 3%;
+    
+}
+footer .img{
+    justify-self: unset;
+   margin-top: 20px;
+  
+}
+footer #right{
+    text-align: center;
+    padding: 2px;
 }
