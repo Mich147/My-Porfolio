@@ -79,6 +79,8 @@ span {
 }
 .icon img {
     margin-left: 10px;
+    justify-self: unset;
+   margin-top: 20px;
 }
 .images {
     height: 100%;
@@ -87,6 +89,12 @@ span {
     margin-bottom: 0%;
     padding-top: 0%;
     transition: bottom 1s, left 1s;  
+}
+.icon p{
+    color: rgb(246, 246, 177);
+    font-size: 20px;
+    margin-bottom: 3%;
+    margin-left: 20px;
 }
 /* .icon p{
     color: rgb(246, 246, 177);
